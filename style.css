@@ -124,9 +124,25 @@ body {
     font-size: 2rem;
 }
 
+.about-image {
+    float: right;
+    width: 50%;
+    max-width: 480px;
+    margin: 0 0 24px 24px;
+    display: block;
+}
+
 .content p {
     line-height: 1.75;
     max-width: 720px;
+}
+
+@media (max-width: 900px) {
+    .about-image {
+        float: none;
+        width: 100%;
+        margin: 0 0 24px 0;
+    }
 }
 
 .collage {
